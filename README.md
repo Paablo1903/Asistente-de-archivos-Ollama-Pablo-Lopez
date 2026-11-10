@@ -50,7 +50,7 @@ Extensión de Google Chrome para analizar archivos con inteligencia artificial l
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/TU-USUARIO/asistente-archivos-ollama.git
+git clone https://github.com/Paablo1903/asistente-archivos-ollama.git
 ```
 
 ### 2. Acceder a la carpeta
