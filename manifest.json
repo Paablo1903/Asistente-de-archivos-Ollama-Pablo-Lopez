@@ -1,0 +1,16 @@
+
+{
+  "manifest_version": 3,
+  "name": "Ollama File Assistant",
+  "version": "1.0.0",
+  "description": "Analiza archivos directamente con Ollama en tu ordenador.",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "http://localhost:11434/*",
+    "http://127.0.0.1:11434/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Ollama File Assistant"
+  }
+}

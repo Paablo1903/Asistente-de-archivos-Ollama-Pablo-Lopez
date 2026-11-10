@@ -1,0 +1,162 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 390px;
+  min-height: 540px;
+  margin: 0;
+  background: #111318;
+  color: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  padding: 18px;
+}
+
+header, .result-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 0 0 5px;
+  font-size: 20px;
+}
+
+small, p {
+  color: #9ca3af;
+}
+
+#status {
+  font-size: 11px;
+  color: #fbbf24;
+}
+
+.settings, .chat, .result-section {
+  margin-top: 18px;
+}
+
+label {
+  display: block;
+  margin: 12px 0 7px;
+  font-size: 12px;
+  color: #c4c7d0;
+}
+
+input:not([type=file]), select, textarea {
+  width: 100%;
+  background: #20232c;
+  color: white;
+  border: 1px solid #383d49;
+  border-radius: 8px;
+  padding: 10px;
+  outline: none;
+}
+
+textarea {
+  resize: vertical;
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+  background: #444b5b;
+}
+
+#refresh {
+  margin-top: 8px;
+  width: 100%;
+}
+
+#dropzone {
+  margin-top: 18px;
+  padding: 24px 12px;
+  text-align: center;
+  border: 2px dashed #525b70;
+  border-radius: 12px;
+  cursor: pointer;
+  background: #1b1e27;
+}
+
+#dropzone.drag {
+  border-color: #8b5cf6;
+  background: #29233c;
+}
+
+#dropzone p {
+  margin: 7px;
+  font-size: 12px;
+}
+
+#dropzone small {
+  font-size: 10px;
+}
+
+.upload-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+#file-list {
+  margin-top: 10px;
+}
+
+.file {
+  display: flex;
+  justify-content: space-between;
+  background: #20232c;
+  padding: 9px;
+  margin-bottom: 5px;
+  border-radius: 7px;
+  font-size: 12px;
+}
+
+.file button {
+  padding: 2px 7px;
+  background: #703b45;
+}
+
+#send {
+  width: 100%;
+  margin-top: 10px;
+  background: #7955d9;
+  font-weight: bold;
+}
+
+#send:disabled {
+  opacity: .5;
+  cursor: wait;
+}
+
+.result-section {
+  border-top: 1px solid #383d49;
+  padding-top: 15px;
+}
+
+#clear {
+  font-size: 11px;
+  padding: 6px 10px;
+}
+
+#result {
+  margin-top: 10px;
+  padding: 12px;
+  min-height: 100px;
+  max-height: 260px;
+  overflow-y: auto;
+  background: #20232c;
+  border-radius: 8px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  line-height: 1.5;
+  font-size: 12px;
+  color: #e1e4ec;
+}

@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ollama Assistant</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h2>Ollama Assistant</h2>
+        <small>Tu IA local en Chrome</small>
+      </div>
+      <span id="status">Conectando...</span>
+    </header>
+
+    <section class="settings">
+      <label for="endpoint">Servidor Ollama</label>
+      <input id="endpoint" value="http://localhost:11434">
+
+      <label for="model">Modelo</label>
+      <select id="model">
+        <option value="">Cargando modelos...</option>
+      </select>
+
+      <button id="refresh">↻ Actualizar modelos</button>
+    </section>
+
+    <section id="dropzone">
+      <div class="upload-icon">📁</div>
+      <strong>Arrastra tus archivos aquí</strong>
+      <p>O pulsa para seleccionarlos</p>
+      <small>TXT, MD, CSV, JSON, LOG, PNG, JPG, WEBP</small>
+      <input id="files" type="file" multiple hidden
+        accept=".txt,.md,.csv,.json,.log,.html,.xml,.yaml,.yml,.ini,.py,.js,.css,.sql,.ps1,.bat,.png,.jpg,.jpeg,.webp">
+    </section>
+
+    <section id="file-list"></section>
+
+    <section class="chat">
+      <label for="question">¿Qué quieres hacer con tus archivos?</label>
+      <textarea id="question" rows="4"
+        placeholder="Ej. Resume los documentos, busca errores, extrae los datos importantes..."></textarea>
+
+      <button id="send">Enviar a Ollama →</button>
+    </section>
+
+    <section class="result-section">
+      <div class="result-title">
+        <strong>Respuesta</strong>
+        <button id="clear">Limpiar</button>
+      </div>
+      <div id="result">Aquí aparecerán las respuestas de Ollama.</div>
+    </section>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>
