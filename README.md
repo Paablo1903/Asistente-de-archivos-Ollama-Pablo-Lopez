@@ -50,14 +50,20 @@ Extensión de Google Chrome para analizar archivos con inteligencia artificial l
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/Paablo1903/Asistente-de-archivos-Ollama-Pablo-Lopez
+git clone https://github.com/USUARIO/REPOSITORIO.git
 ```
+
+Sustituye:
+- `USUARIO` por tu nombre de usuario de GitHub.
+- `REPOSITORIO` por el nombre del repositorio que quieras descargar.
 
 ### 2. Acceder a la carpeta
 
 ```bash
-cd Asistente-de-archivos-Ollama-Pablo-Lopez
+cd REPOSITORIO
 ```
+
+Sustituye `REPOSITORIO` por el nombre de la carpeta del proyecto que acabas de descargar
 
 ### 3. Configurar Ollama
 
