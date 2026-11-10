@@ -50,13 +50,13 @@ Extensión de Google Chrome para analizar archivos con inteligencia artificial l
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/Paablo1903/asistente-archivos-ollama.git
+git clone https://github.com/Paablo1903/Asistente-de-archivos-Ollama-Pablo-Lopez
 ```
 
 ### 2. Acceder a la carpeta
 
 ```bash
-cd asistente-archivos-ollama
+cd Asistente-de-archivos-Ollama-Pablo-Lopez
 ```
 
 ### 3. Configurar Ollama
